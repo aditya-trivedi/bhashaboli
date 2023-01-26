@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhashaboli</title>
+    <link href="/css/home.css" rel="stylesheet" type="text/css">
+    <link href="/css/card.css" rel="stylesheet" type="text/css">
+    <%- include('../partials/materialize'); %>
+</head>
+<body>
+    
+    <section class="home-brand-name-container">
+        <p id="brand-name">
+            Bhashaboli
+        </p>
+        <p id="tagline">
+            Bhashaon se 
+            <span style="color: #FF671F;">Bh</span><span>ar</span><span style="color:  #046A38;">at</span>
+        </p>
+    </section>
+
+    <hr style="width: 90%; margin-bottom: 4rem; border: solid 1.5px ; border-color: #ffffff;">
+
+    <!-- <section class="language-selector">
+        <div class="language-option">
+            Hindi
+        </div>
+        <div class="language-option">
+            English
+        </div>
+        <div class="language-option">
+            Malyalam
+        </div>
+        <div class="language-option">
+            Kannada
+        </div>
+        <div class="language-option">
+            Tamil
+        </div>
+        <div class="language-option">
+            Urdu
+        </div>
+        <div class="language-option">
+            Punjabi
+        </div>
+        <div class="language-option">
+            Marathi
+        </div>
+        <div class="language-option">
+            Telgu
+        </div>
+    </section> -->
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <%- include('../partials/card'); %>
+          </div>
+          <div class="col">
+            <%- include('../partials/card'); %>
+          </div>
+          <div class="col">
+            <%- include('../partials/card'); %>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+              <%- include('../partials/card'); %>
+            </div>
+            <div class="col">
+              <%- include('../partials/card'); %>
+            </div>
+            <div class="col">
+              <%- include('../partials/card'); %>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <%- include('../partials/card'); %>
+            </div>
+            <div class="col">
+              <%- include('../partials/card'); %>
+            </div>
+            <div class="col">
+              <%- include('../partials/card'); %>
+            </div>
+          </div>
+      </div>
+
+</body>
+</html>

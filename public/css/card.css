@@ -1,0 +1,64 @@
+.grid-card {
+    /* background-color: white  ; */
+    max-width: 100%  ;
+    padding: 0.7rem  ;
+    margin: 1rem  ;
+    background-color: #000000  ;
+    transition-duration: 0.25s  ;
+    border-radius: 0.2rem;
+    cursor: pointer  ;
+    color: #ffffff;
+    border : solid 1px #8800ff
+}
+
+.grid-card:hover{
+    border: none;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px 5px #d6c2ff  ;
+}
+.card-img-container{
+    height: 15rem  ;
+    border-radius: 0.2rem  ;
+    display: flex  ;
+    justify-content: center  ;
+    background-size: contain  ;
+}
+
+.card-img-container img {
+    max-width: 100%  ;
+    border-radius: 0.2rem  ;
+    object-fit: contain  ;
+    max-height: 100%  ;
+}
+
+.card-text{
+    padding: 1rem 0.7rem  ;
+}
+
+.card-text-heading{
+    font-size: 1.2rem  ;
+}
+.card-text-info{
+    font-size: 0.7rem  ;
+}
+
+.truncate {
+    display: -webkit-box  ;
+    max-width: calc(100% - 0.7rem)  ;
+    -webkit-line-clamp: 3  ;
+    -webkit-box-orient: vertical  ;
+    overflow: hidden  ;
+    text-align: justify  ;
+}
+.button-holders{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-holders button{
+    background-color: #000000;
+    border: solid 1px #777777;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    color: #ffffff;
+}

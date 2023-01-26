@@ -1,0 +1,38 @@
+.main-card{
+    max-width: 350px ;
+    width: 100%;
+    background-color: white  ;
+    border-radius: 0.4rem  ;
+    padding: 0.7rem  ;
+}
+
+.main-card-img-container{
+    height: 35vh  ;
+    background-color: #494949  ;
+    border-radius: 0.2rem  ;
+    display: flex  ;
+    justify-content: center  ;
+    align-items: center;
+}
+
+.main-card-container{
+    width: 100%  ;
+    display: flex  ;
+    align-items: center  ;
+    flex-direction: column  ;
+    height: 100vh  ;
+    justify-content: center;
+}
+
+.button-holders{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-holders button{
+    background-color: white;
+    border: solid 1px #8800ff;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    color: #000000;
+}
